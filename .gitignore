@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.eggs/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 评测结果体积大，只保留占位不推送内容
+old_results/*
+!old_results/.gitkeep
